@@ -1,0 +1,364 @@
+body {
+  line-height: 1.5;
+  font-family: DM Sans;
+}
+
+input {
+  padding: 8px;
+  font-family: inherit;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.footer-section {
+  background-color: #2e2f42;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media only screen and (min-width: 1158px) {
+  .footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.container .footer {
+}
+/*
+@media only screen and (min-width: 768px) {
+  .container.footer {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .container.footer {
+    align-items: baseline;
+  }
+}
+*/
+.footer-wrapper {
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  max-width: 264px;
+  margin-right: 120px;*/
+}
+
+/*@media only screen and (min-width: 768px) {
+   {
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+   {
+  }
+}*/
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 17.5px;
+}
+
+.logo-style {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  width: 100%;
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-footer {
+    max-width: 264px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .text-footer {
+  }
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  max-width: 208px;
+}
+.social-media {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.social-list.footer {
+  gap: 16px;
+}
+.social-link.footer:hover,
+.social-link.footer:focus {
+  background-color: #31d0aa;
+}
+
+.footer-subscribe {
+  /* margin-left: auto;*/
+}
+
+@media only screen and (min-width: 768px) {
+  .text-footer {
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .text-footer {
+  }
+}
+.text-subscribe {
+  margin-bottom: 16px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.form-subscribe {
+  /*display: flex;
+  gap: 24px;*/
+}
+
+@media only screen and (min-width: 768px) {
+  .form-subscribe {
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .form-subscribe {
+  }
+}
+
+.form-input-subscribe {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.form-input-subscribe::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-subscribe-icon {
+  margin-left: 16px;
+  fill: white;
+}
+
+.backdrop {
+  position: relative;
+  width: 100vw;
+  height: 100vw;
+  background-color: #31d0aa;
+}
+.modal {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: burlywood;
+  max-width: 100px;
+  height: 100px;
+}
+.madal-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 80px;
+}
+.box {
+  display: flex;
+  min-width: 90px;
+  background-color: brown;
+  margin-top: 50px;
+}
+
+.svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  background-color: #1d1d1d;
+  border-radius: 50%;
+}
+.svg-link {
+  display: block;
+}
+.svg-icon {
+  fill: currentColor;
+  display: block;
+}
+
+/******  courses  *****/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.courses {
+  background-color: #121212;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.container {
+  max-width: 1240px;
+  margin-bottom: 150px;
+}
+.courses-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.courses-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px; /* 112.5% */
+  letter-spacing: -1.92px;
+}
+.courses-title-span {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: -1.92px;
+}
+.courses-text {
+  max-width: 565px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+}
+.courses-list {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.courses-item {
+  width: 400px;
+  height: 452px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  padding: 32px;
+  width: calc(100% - 2 * 20px) / 3;
+}
+.courses-link-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  width: 100%;
+}
+.courses-item-number {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+  width: 18px;
+  height: 18px;
+}
+
+.courses-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1d1d;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+.svg-icon {
+  display: block;
+}
+.courses-title-item {
+  max-width: 265px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 114.286% */
+  margin-bottom: 200px;
+}
+.courses-text-item {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+}
